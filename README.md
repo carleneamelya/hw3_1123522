@@ -5,22 +5,24 @@ Given an undirected graph with V nodes and E edges, create and return an adjacen
 <br><br>
 Input:
 <br>
-V = 4, E = 5
+V = 5, E = 8
 <br>
-edges = [[0,1], [0,3], [1,2], [1,3], [2,3]]
+edges = [[0 1], [0 3], [0 4], [1 2], [1 3],  [1 4], [2 3], [3 4]]
 <br><br>
 Output: 
-[[1,3], [0,2,3], [1,3], [0,1,2]]
+[[1,3,4], [0,2,3,4], [1,3], [0,1,2,4], [0,1,3]]
 <br><br>
 Explanation:
 <br>
-Node 0 is connected to 1 and 3.
+Node 0 is connected to 1, 3 and 4.
 <br>
-Node 1 is connected to 0, 2, and 3.
+Node 1 is connected to 0, 2, 3, and 4.
 <br>
 Node 2 is connected to 1 and 3.
 <br>
-Node 3 is connected to 0, 1, and 2.
+Node 3 is connected to 0, 1, 2, and 4.
+<br>
+Node 3 is connected to 0, 1, and 3.
 
 ---
 
