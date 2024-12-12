@@ -31,9 +31,9 @@ Node 4 is connected to 0,1 and 3.
 Given a connected undirected graph represented by an adjacency list adj, which is a vector of vectors where each adj[i] represents the list of vertices connected to vertex i. Perform a Breadth First Traversal (BFS) starting from vertex 0, visiting vertices from left to right according to the adjacency list, and return a list containing the BFS traversal of the graph.
 Note: Do traverse in the same order as they are in the adjacency list.
 <br><br>
-Input: adj = [[2,3,1], [0], [0,4], [0], [2]]
+Input: adj = []
 <br><br>
-Output: [0, 2, 3, 1, 4]
+Output: [0, 1, 2, 3, 4, 5, 6]
 <br><br>
 Explanation: 
 <br>
@@ -47,7 +47,7 @@ Visit 3 (next neighbor of 0) → Output: 0, 2, 3
 <br>
 Visit 1 (next neighbor of 0) → Output: 0, 2, 3, 
 <br>
-Visit 4 (neighbor of 2) → Final Output: 0, 2, 3, 1, 4
+Visit 4 (neighbor of 2) → Final Output: 0, 1, 2, 3, 4, 5, 6
 
 ---
 
@@ -83,18 +83,18 @@ Input:
 <br>
 V = 3, E = 3
 <br>
-0 1 5
+1 2 2
 <br>
-1 2 3
+1 3 5
 <br>
-0 2 1
+2 3 10
 <br>
 <br><br>
 Output:
 <br>
-4
+7
 <br><br>
 Explanation:
 <br>
-The Spanning Tree resulting in a weight of 4 is shown above.
+The Spanning Tree resulting in a weight of 7 is shown above.
 
