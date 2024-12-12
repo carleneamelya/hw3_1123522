@@ -3,7 +3,7 @@
 ### Question 1
 Given an undirected graph with V nodes and E edges, create and return an adjacency list of the graph. 0-based indexing is followed everywhere.
 <br><br>
-
+![question1](https://github.com/user-attachments/assets/1beca1ac-538f-46e0-a046-b67443f6e46a)
 Input:
 <br>
 V = 5, E = 8
@@ -32,6 +32,7 @@ Node 3 is connected to 0, 1, and 3.
 Given a connected undirected graph represented by an adjacency list adj, which is a vector of vectors where each adj[i] represents the list of vertices connected to vertex i. Perform a Breadth First Traversal (BFS) starting from vertex 0, visiting vertices from left to right according to the adjacency list, and return a list containing the BFS traversal of the graph.
 Note: Do traverse in the same order as they are in the adjacency list.
 <br><br>
+![question2](https://github.com/user-attachments/assets/6e8e0a41-cc06-4ed9-964d-ec3c3faa4f05)
 Input: adj = [[1,2,3], [0,4], [0,5], [0], [1, 6], [2], [4]]
 <br><br>
 Output: [0, 1, 2, 3, 4, 5, 6]
