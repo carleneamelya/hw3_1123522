@@ -58,9 +58,9 @@ Given a connected undirected graph represented by an adjacency list adj, which i
 <br>
 Note: Do traverse in the same order as they are in the adjacency list.
 <br><br>
-Input: adj = [[1, 2], [0, 2], [0, 1, 3, 4], [2], [2]]
+Input: adj = [[3, 2, 1], [0, 6], [0, 5], [0, 4], [3], [2], [1]]
 <br><br>
-Output: [0, 1, 2, 3, 4]
+Output: [0, 3, 4, 2, 5, 1, 6]
 <br><br>
 Explanation: 
 <br>
@@ -68,13 +68,17 @@ Starting from 0, the DFS traversal proceeds as follows:
 <br>
 Visit 0 → Output: 0 
 <br>
-Visit 1 (the first neighbor of 0) → Output: 0, 1 
+Visit 3 (the first neighbor of 0) → Output: 0, 3
 <br>
-Visit 2 (the first neighbor of 1) → Output: 0, 1, 2 
+Visit 4 (the  neighbor of 3) → Output: 0, 3, 4
 <br>
-Visit 3 (the first neighbor of 2) → Output: 0, 1, 2, 3 
+Backtrack to 3 and 0 and visit 2 (the next neighbor of 0) → Output: 0, 3, 4, 2
 <br>
-Backtrack to 2 and visit 4 → Final Output: 0, 1, 2, 3, 4
+Visit 5 (the  neighbor of 2) → Output: 0, 3, 4, 2, 5
+<br>
+Backtrack to 2 and 0 and visit 1 (the next neighbor of 0) → Output: 0, 3, 4, 2, 5, 1
+<br>
+Visit 6 (the next neighbor of 1) → Final Output: 0, 3, 4, 2, 5, 1, 6
 
 ---
 
@@ -85,11 +89,11 @@ Input:
 <br>
 V = 3, E = 3
 <br>
-1 2 2
+1 2 10
 <br>
-1 3 5
+1 3 2
 <br>
-2 3 10
+2 3 5
 <br>
 <br><br>
 Output:
