@@ -34,7 +34,8 @@ Given a connected undirected graph represented by an adjacency list adj, which i
 Note: Do traverse in the same order as they are in the adjacency list.
 <br><br>
 
-![question2](https://github.com/user-attachments/assets/ea0dbe6e-ae89-4357-9974-00ff2effdc37)
+![question2](https://github.com/user-attachments/assets/452943b2-1353-48f0-8fe0-6fbe69e56c35)
+
 <br>
 Input: adj = [[1,2,3], [0,4], [0,5], [0], [1, 6], [2], [4]]
 <br><br>
