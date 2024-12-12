@@ -5,7 +5,7 @@ Given an undirected graph with V nodes and E edges, create and return an adjacen
 <br><br>
 Input:
 <br>
-V = 5, E = 7
+V = 4, E = 7
 <br>
 edges = [[0,1], [0,4], [4,1], [4,3], [1,3], [1,2], [3,2]]
 <br><br>
@@ -26,7 +26,7 @@ Node 4 is connected to 0,1 and 3.
 
 ---
 
-Question 2
+### Question 2
 <br>
 Given a connected undirected graph represented by an adjacency list adj, which is a vector of vectors where each adj[i] represents the list of vertices connected to vertex i. Perform a Breadth First Traversal (BFS) starting from vertex 0, visiting vertices from left to right according to the adjacency list, and return a list containing the BFS traversal of the graph.
 Note: Do traverse in the same order as they are in the adjacency list.
