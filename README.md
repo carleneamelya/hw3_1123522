@@ -33,7 +33,7 @@ Node 3 is connected to 0, 1, and 3.
 Given a connected undirected graph represented by an adjacency list adj, which is a vector of vectors where each adj[i] represents the list of vertices connected to vertex i. Perform a Breadth First Traversal (BFS) starting from vertex 0, visiting vertices from left to right according to the adjacency list, and return a list containing the BFS traversal of the graph.
 Note: Do traverse in the same order as they are in the adjacency list.
 <br><br>
-![question2](https://github.com/user-attachments/assets/5b99bbdb-a4df-493a-b56b-4d8ee5ef2690)
+![question2](https://github.com/user-attachments/assets/195e29a3-74a5-4941-8899-6e11853ad88e)
 <br>
 Input: adj = [[1,2,3], [0,4], [0,5], [0], [1, 6], [2], [4]]
 <br><br>
