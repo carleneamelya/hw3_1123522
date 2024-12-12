@@ -25,6 +25,7 @@ Node 3 is connected to 1,2 and 4.
 <br>
 Node 4 is connected to 0,1 and 3.
 <br><br>
+---
 Question 2
 <br>
 Given a connected undirected graph represented by an adjacency list adj, which is a vector of vectors where each adj[i] represents the list of vertices connected to vertex i. Perform a Breadth First Traversal (BFS) starting from vertex 0, visiting vertices from left to right according to the adjacency list, and return a list containing the BFS traversal of the graph.
