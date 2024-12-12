@@ -94,7 +94,7 @@ Visit 6 (the next neighbor of 1) → Final Output: 0, 3, 4, 2, 5, 1, 6
 ### Question 4
 Given a weighted, undirected, and connected graph with V vertices and E edges, your task is to find the sum of the weights of the edges in the Minimum Spanning Tree (MST) of the graph. The graph is represented by an adjacency list, where each element adj[i] is a vector containing vector of integers. Each vector represents an edge, with the first integer denoting the endpoint of the edge and the second integer denoting the weight of the edge.
 <br><br>
-![question4](https://github.com/user-attachments/assets/c662d88a-324d-460d-88b4-828a3daf616e)
+![question4](https://github.com/user-attachments/assets/40f65923-1a4a-4568-8929-9e9ff1ef95b7)
 <br>
 Input:
 <br>
