@@ -3,7 +3,7 @@
 ### Question 1
 Given an undirected graph with V nodes and E edges, create and return an adjacency list of the graph. 0-based indexing is followed everywhere.
 <br><br>
-![Alt text](hw3_1123522/question1.png)
+
 Input:
 <br>
 V = 5, E = 8
