@@ -45,8 +45,7 @@ Explanation:
 Starting from 0, the BFS traversal will follow these steps: 
 <br>
 Visit 0 → Output: 0 
-<br>![question2](https://github.com/user-attachments/assets/0a8a3f56-ff1d-455a-97dd-d1586e2f958a)
-
+<br>
 Visit 1 (first neighbor of 0) → Output: 0, 1
 <br>
 Visit 2 (next neighbor of 0) → Output: 0, 1, 2
