@@ -24,7 +24,7 @@ Node 2 is connected to 1 and 3.
 <br>
 Node 3 is connected to 0, 1, 2, and 4.
 <br>
-Node 3 is connected to 0, 1, and 3.
+Node 4 is connected to 0, 1, and 3.
 
 ---
 
